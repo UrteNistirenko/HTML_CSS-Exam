@@ -3,9 +3,6 @@
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
-/* body {
-  margin: 2rem 1rem;
-} */
 header {
   margin: 2rem 1.5rem;
   display: flex;
@@ -309,19 +306,18 @@ nav {
   padding-top: 4rem;
   margin: 4rem 2rem;
   display: flex;
-  width: 100%;
   border-bottom: 2px solid #eeeeee;
   border-top: 2px solid #eeeeee;
-}
-.bottom-img {
-  height: 30rem;
-  flex: 1;
 }
 .bottom-left {
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+.bottom-img {
+  height: 30rem;
+  flex: 1;
 }
 @media only screen and (max-width: 600px) {
   .bottom-box {
@@ -349,6 +345,9 @@ nav {
   fill: #999999;
   width: 1rem;
   margin-right: 0.8rem;
+}
+.social:hover {
+  fill: black;
 }
 footer {
   margin: 4rem 2rem;
@@ -382,6 +381,9 @@ tr {
   font-size: 0.9rem;
   color: #555555;
   font-weight: 400;
+}
+td {
+  width: 3rem;
 }
 td a {
   color: #555555;
